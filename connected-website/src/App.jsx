@@ -4,21 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App w-100 h-100 d-flex flex-column">
+      <Switch>
+        <Route exact path="/404" component={NotFound} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Art" component={Art} />
+        <Route component={RedirectToNotFound} />
+      </Switch>
     </div>
   );
 }
