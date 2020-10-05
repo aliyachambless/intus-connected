@@ -16,12 +16,13 @@ const Connected = () => {
       <Row>
         <img src={connected} alt="Connected logo" className="img70" />
       </Row>
-      <Row>
+      <Row className="d-flex flex-row">
         {/* Make mobile-friendly */}
-        <Col md={4}>
+        <Col lg={4}>
+          <h1> hi</h1>
         </Col>
-        <Col md={8}>
-          <p>
+        <Col lg={8}>
+          <p className="text-indigo">
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
           </p>
         </Col>
