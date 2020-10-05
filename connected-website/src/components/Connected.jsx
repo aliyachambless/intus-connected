@@ -21,7 +21,9 @@ const Connected = () => {
         <Col md={4}>
         </Col>
         <Col md={8}>
-          <p></p>
+          <p>
+            connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
+          </p>
         </Col>
       </Row>
     </Container>
