@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+ 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Connected from './components/Connected';
 
