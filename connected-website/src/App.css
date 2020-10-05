@@ -5,8 +5,6 @@
   font-family: 'Poppins', Arial, sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 /* em part is the "bottom-out" size-even when vw really small, it will keep this size
 vw is how responsive the text will be–the thigher the vw, the bigger it'll be on big screens, smaller on small screens */
 html {
@@ -24,4 +22,3 @@ h2 {
 p {
   font-size: 1em;
 }
->>>>>>> main

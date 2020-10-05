@@ -11,10 +11,12 @@ const Connected = () => {
   return (
     <Container
       fluid
-      className="d-flex bg-white flex-column h-100 w-100 p-0 justify-content-center align-items-center"
+      className="d-flex bg-white flex-column w-100 p-0 justify-content-center align-items-center"
     >
-      <Row>
-        <img src={connected} alt="Connected logo" className="img70" />
+      <Row className="vh-100 align-items-center">
+        <div>
+          <img src={connected} alt="Connected logo" className="img70 auto-height" />
+        </div>
       </Row>
       <Row className="d-flex flex-row">
         {/* Make mobile-friendly */}
