@@ -3,6 +3,9 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ReactComponent as Heart } from '../assets/heart.svg';
+import { ReactComponent as HandHeart } from '../assets/hand_heart.svg';
+import { ReactComponent as Brain } from '../assets/brain_drawing.svg';
+
 import '../styles/Utilities.scss';
 import '../styles/Impact.scss';
 
@@ -12,7 +15,7 @@ const Impact = () => {
   return (
     <Container
       fluid
-      className="impact-background bg-white w-100 p-0 px-5"
+      className="impact-background w-100 p-0 px-5"
     >
       <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
         <h1 className="p-0 m-0 extra-bold">impact</h1>
@@ -25,7 +28,7 @@ const Impact = () => {
       </Row>
       <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
         <div className="py-5">
-          <Heart style={{ fill: "#ffffff", width: '12vw' }} />
+          <Brain style={{ fill: "#ffffff", width: '18vw' }} />
         </div>
         <p className="text-white px-4 py-5 mx-5">
           connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
@@ -55,11 +58,11 @@ const Impact = () => {
         <h2 className="font-weight-bold text-white-60">among generations</h2>
       </Row>
       <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
-        <div className="py-5">
-          <Heart style={{ fill: "#ffffff", width: '12vw' }} />
+        <div className="pt-4">
+          <HandHeart style={{ fill: "#ffffff", width: '18vw' }} />
         </div>
       </Row>
-      <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
+      <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white">
         <h2 className="font-weight-bold text-white-60">building a bridge</h2>
         <p className="text-white px-4 py-5 mx-5">
           connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
@@ -69,7 +72,7 @@ const Impact = () => {
           connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
          </p>
       </Row>
-      <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
+      <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white">
         <h2 className="font-weight-bold text-white-60">fighting ageism</h2>
         <p className="text-white px-4 py-5 mx-5">
           connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly

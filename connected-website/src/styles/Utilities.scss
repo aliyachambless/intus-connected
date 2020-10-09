@@ -27,3 +27,8 @@
 .extra-bold {
   font-weight: bolder;
 }
+
+.background {
+  position: absolute;
+  z-index: -1;
+}
