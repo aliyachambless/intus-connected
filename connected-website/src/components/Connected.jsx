@@ -12,7 +12,7 @@ configureAnchors({ scrollDuration: 700 });
 const Connected = () => {
   return (
     <div className="w-100 overflow-hidden">
-      <div className="background" style={{ right: '-140px', top: '60vh', zIndex: '-3' }}>
+      <div className="background overflow-hidden" style={{ right: '-10vw', top: '60vh', zIndex: '-3' }}>
         <WhiteCircle style={{ fill: "#ffffff", width: '80vw' }} />
       </div>
       <Container
