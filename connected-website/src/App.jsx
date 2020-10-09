@@ -6,10 +6,9 @@ import Impact from './components/Impact';
 
 function App() {
   return (
-    <div className="App w-100 h-100 d-flex flex-column">
+    <div className="App h-100 d-flex flex-column">
       <Connected />
       <Impact />
-
     </div>
   );
 }

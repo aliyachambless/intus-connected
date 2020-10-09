@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import connected from '../assets/connected-logos-indigo.png';
 import { ReactComponent as Heart } from '../assets/heart.svg';
 import { ReactComponent as WhiteCircle } from '../assets/white_circle.svg';
-
 import '../styles/Utilities.scss';
 
 configureAnchors({ scrollDuration: 700 });
@@ -13,7 +12,7 @@ configureAnchors({ scrollDuration: 700 });
 const Connected = () => {
   return (
     <div className="w-100 overflow-hidden">
-      <div className="background" style={{ right: '-140px', top: '60vh' }}>
+      <div className="background" style={{ right: '-140px', top: '60vh', zIndex: '-3' }}>
         <WhiteCircle style={{ fill: "#ffffff", width: '80vw' }} />
       </div>
       <Container

@@ -2,4 +2,5 @@
 
 .impact-background {
   background-image: linear-gradient($magenta, $magenta-pink, $pink);
+  z-index: -2;
 }
