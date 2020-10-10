@@ -19,9 +19,6 @@ const About = () => {
         <div className="background" style={{ left: '-50vh', top: '325vh' }}>
         <Bubbles style={{ width: '133vw' }} />
         </div>
-        <div className="background" style={{ left: '-50vh', top: '530vh' }}>
-        <img src={gradientBubble} alt="Placeholder Image" className="img70" />
-        </div>
       <Container
         fluid
         className="w-100 p-0 px-5"
@@ -82,7 +79,10 @@ const About = () => {
          </p>
          <img src={placeholder} alt="Placeholder Image" className="img45" />
         </Row>
-        <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
+        <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold position-relative">
+        <div className="background" style={{ left: '-60vh', top: '-50vh' }}>
+        <img src={gradientBubble} alt="Placeholder Image" className="img70" />
+        </div>
           <h2 className="font-weight-bold text-white-60">volunteers:</h2>
         </Row>
         <Row className="d-flex flex-column align-items-end justify-content-center py-5 px-5 mx-4">
