@@ -1,0 +1,13 @@
+@import './Palette.scss';
+
+.about-background {
+  position: relative;
+  background-image: linear-gradient($indigo, $magenta);
+  z-index: -2;
+}
+
+.impact-background {
+  position: relative;
+  background-image: linear-gradient($magenta, $magenta-pink, $pink);
+  z-index: -2;
+}
