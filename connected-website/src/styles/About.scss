@@ -1,0 +1,8 @@
+@import './Palette.scss';
+
+.about-background {
+  position: relative;
+  background-image: linear-gradient($indigo, $magenta);
+  z-index: -2;
+  padding-bottom: 5vh;
+}
