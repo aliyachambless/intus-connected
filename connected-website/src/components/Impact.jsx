@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { ReactComponent as Heart } from '../assets/heart.svg';
 import { ReactComponent as HandHeart } from '../assets/hand_heart.svg';
 import { ReactComponent as Brain } from '../assets/brain_drawing.svg';
@@ -14,13 +14,16 @@ configureAnchors({ scrollDuration: 700 });
 const Impact = () => {
   return (
     <div className="impact-background">
-      <div className="background" style={{ right: '-40vw', top: '350vh' }}>
+      <div className="background" style={{ right: '-40vw', top: '170vh' }}>
         <Smiley style={{ fill: "#ffffff", width: '80vw' }} />
       </div>
       <Container
         fluid
         className="w-100 p-0 px-5"
       >
+        <ScrollableAnchor id={'impact'}>
+          <div style={{ height: '5vh' }} />
+        </ScrollableAnchor>
         <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
           <h1 className="p-0 m-0 extra-bold">impact</h1>
           <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
@@ -58,7 +61,6 @@ const Impact = () => {
         </Row>
         <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
           <h2 className="font-weight-bold text-white-60">fostering empathy</h2>
-          <bk />
           <h2 className="font-weight-bold text-white-60">among generations</h2>
         </Row>
         <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">

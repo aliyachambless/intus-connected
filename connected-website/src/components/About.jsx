@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ReactComponent as Phone } from '../assets/iphone.svg';
@@ -26,6 +27,9 @@ const About = () => {
         fluid
         className="w-100 p-0 px-5"
       >
+        <ScrollableAnchor id={'about'}>
+          <div style={{ height: '5vh' }} />
+        </ScrollableAnchor>
         <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
           <h1 className="p-0 m-0 extra-bold">about us.</h1>
         </Row>
