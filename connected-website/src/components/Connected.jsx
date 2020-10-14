@@ -11,7 +11,7 @@ configureAnchors({ scrollDuration: 700 });
 
 const Connected = () => {
   return (
-    <div className="w-100 overflow-hidden">
+    <div className="w-100 h-100 overflow-hidden">
       <div className="background overflow-hidden" style={{ right: '-10vw', top: '60vh', zIndex: '-3' }}>
         <WhiteCircle style={{ fill: "#ffffff", width: '80vw' }} />
       </div>
@@ -19,9 +19,11 @@ const Connected = () => {
         fluid
         className="d-flex flex-column w-100 justify-content-center align-items-center px-5 pb-5"
       >
+        <ScrollableAnchor id={'home'}>
         <Row className="vh-100 align-items-center pb-5">
           <img src={connected} alt="Connected logo" className="img70 auto-height" />
         </Row>
+        </ScrollableAnchor>
         <Row className="d-flex flex-row py-5 m-5">
           {/* Make mobile-friendly */}
           <Col lg={4}>

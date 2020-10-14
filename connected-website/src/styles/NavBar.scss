@@ -1,0 +1,28 @@
+@import './Palette.scss';
+
+.nav-bar {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+}
+
+.subcat-wrap {
+  height: 8vh;
+}
+
+.subcat {
+  font-size: 1em;
+  color: $blue;
+  text-decoration: none;
+
+}
+
+.subcat:hover {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.subcat:focus {
+  font-size: 1.5em;
+  text-decoration: none;
+}
