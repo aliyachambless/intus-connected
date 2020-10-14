@@ -10,7 +10,7 @@ import { ReactComponent as Bubbles } from '../assets/about_bubbles.svg';
 import { ReactComponent as Circle } from '../assets/ellipse.svg';
 import placeholder from '../assets/image_placeholder.png';
 import gradientBubble from '../assets/color_gradient_bubble.png';
-import '../styles/Utilities.scss';
+import '../styles/About.scss';
 import '../styles/Impact.scss';
 configureAnchors({ scrollDuration: 700 });
 const About = () => {
