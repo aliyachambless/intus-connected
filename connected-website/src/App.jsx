@@ -4,7 +4,7 @@ import './App.css';
 import Connected from './components/Connected';
 import Impact from './components/Impact';
 import About from './components/About';
-import NavBar from './components/Nav';
+import Involved from './components/Involved';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Connected />
         <About />
         <Impact />
+        <Involved />
       </div>
 
 

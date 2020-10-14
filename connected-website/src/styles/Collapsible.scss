@@ -1,0 +1,39 @@
+@import './Palette.scss';
+
+.collapse-container{
+  position: relative;
+  transition: height 0.3s ease-out;
+  &.open {
+    max-height: 1000vh;
+    transition: max-height 0.5s ease-in;
+  }
+  &.closed {
+    max-height: 110vw;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+  }
+}
+
+.read-more {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  color: $magenta;
+
+  width: 150px; 
+  height: 150px; 
+  border-radius: 80px; 
+  text-align: center; 
+  &:hover{
+    width: 160px; 
+    height: 160px; 
+    transition: all 0.3s ease 0s;
+    color: $indigo;
+  }
+  &:hover, &:focus, &:active {
+    border: none;
+    box-shadow: none;
+    background-color: #fff;
+  }
+
+}

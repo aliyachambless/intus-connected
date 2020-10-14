@@ -1,4 +1,5 @@
 import React from 'react';
+import Collapsible from './Collapsible';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import { Container, Row } from 'react-bootstrap';
@@ -13,6 +14,7 @@ configureAnchors({ scrollDuration: 700 });
 
 const Impact = () => {
   return (
+  <Collapsible>
     <div className="impact-background">
       <div className="background" style={{ right: '-40vw', top: '170vh' }}>
         <Smiley style={{ fill: "#ffffff", width: '80vw' }} />
@@ -90,6 +92,7 @@ const Impact = () => {
         </Row>
       </Container>
     </div>
+  <Collapsible>
   )
 }
 
