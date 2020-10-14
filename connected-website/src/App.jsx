@@ -5,6 +5,7 @@ import Connected from './components/Connected';
 import Impact from './components/Impact';
 import About from './components/About';
 import Involved from './components/Involved';
+import NavBar from './components/Nav';
 
 function App() {
   return (
