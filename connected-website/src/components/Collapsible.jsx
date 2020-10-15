@@ -8,10 +8,10 @@ configureAnchors({ scrollDuration: 700 });
 
 class Collapsible extends Component {
   constructor(props) {
-      super(props);
-      this.state = {
-          active: false,
-      };
+    super(props);
+    this.state = {
+      active: false,
+    };
   }
   toggleClass = () => {
     console.log(this.state.active);
@@ -20,14 +20,16 @@ class Collapsible extends Component {
   };
 
   render() {
-      return (
-        <div className="position-relative">
-          <div className={this.state.active ? 'collapse-container open': 'collapse-container closed'} >
-            {this.props.children}
-          </div>
-          <Button variant="light" className="read-more" onClick={this.toggleClass} >{this.state.active ? 'see less': 'read more'}</Button>
+    return (
+      <div className="position-relative">
+        <div className={this.state.active ? 'collapse-container open' : 'collapse-container closed'} >
+          {this.props.children}
         </div>
-      )
+        <a href={`#stopScroll`}>
+          <Button variant="light" className="read-more" onClick={this.toggleClass} >{this.state.active ? 'see less' : 'read more'}</Button>
+        </a>
+      </div>
+    )
   }
 }
 

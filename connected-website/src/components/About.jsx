@@ -33,7 +33,10 @@ const About = () => {
           <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
             <h1 className="p-0 m-0 extra-bold">about us.</h1>
           </Row>
-          <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
+          <ScrollableAnchor id={'stopScroll'}>
+            <div style={{ height: '5vh' }} />
+          </ScrollableAnchor>
+          <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">who we are</h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">

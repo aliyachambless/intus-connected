@@ -4,6 +4,11 @@
   position: absolute;
   top: 35%;
   left: 10px;
+  display: block;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .subcat-wrap {

@@ -6,30 +6,6 @@
 /* em part is the "bottom-out" size-even when vw really small, it will keep this size
 vw is how responsive the text will be–the thigher the vw, the bigger it'll be on big screens, smaller on small screens */
 html {
-  font-size: calc(.8em + .8vw);
+  font-size: calc(.2em + 1.6vw);
   overflow-x: hidden;
-}
-
-h1 {
-  font-size: 6em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h4 {
-  font-size: 1em;
-}
-
-p {
-  font-size: 1em;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
 }

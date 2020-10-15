@@ -15,16 +15,19 @@ configureAnchors({ scrollDuration: 700 });
 const Involved = () => {
   return (
     <div className="involved-background">
-    <Container
+      <Container
         fluid
         className="w-100 p-0 px-5"
-    >
+      >
+        <ScrollableAnchor id={'involved'}>
+          <div style={{ height: '5vh' }} />
+        </ScrollableAnchor>
         <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
-        <h1 className="p-0 m-0 extra-bold">get involved;</h1>
+          <h1 className="p-0 m-0 extra-bold">get involved</h1>
         </Row>
         <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-        <h2 className="font-weight-bold text-white-60">Application Process</h2>
-        <p className="text-white px-4 py-5 mx-5">
+          <h2 className="font-weight-bold text-white-60">Application Process</h2>
+          <p className="text-white px-4 py-5 mx-5">
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
@@ -32,7 +35,7 @@ const Involved = () => {
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
         </p>
         </Row>
-    </Container>
+      </Container>
     </div>
   )
 }

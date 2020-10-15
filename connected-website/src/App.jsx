@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './styles/BootstrapCustom.scss';
 import Connected from './components/Connected';
 import Impact from './components/Impact';
 import About from './components/About';
