@@ -18,7 +18,7 @@ const About = () => {
       <Collapsible>
         <div className="about-background">
           <div className="background" style={{ left: '-50vh', top: '325vh' }}>
-          <Bubbles style={{ width: '133vw' }} />
+          <Bubbles style={{ width: '133vw' }} className="d-none d-lg-block"/>
           </div>
           <div className="background" style={{ left: '-50vh', top: '530vh' }}>
           <img src={gradientBubble} alt="Placeholder Image" className="img70" />
