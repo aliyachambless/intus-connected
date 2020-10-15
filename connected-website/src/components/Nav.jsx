@@ -24,7 +24,7 @@ class NavBar extends React.Component {
         <div className="subcat-wrap d-flex flex-row align-items-center">
           <a href={`#home`}>
             <h4
-              className="subcat"
+              className={`${this.state.focus === 'home' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'home' })}
             // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
@@ -35,8 +35,7 @@ class NavBar extends React.Component {
         <div className="subcat-wrap">
           <a href={`#about`}>
             <h4
-              className="subcat d-flex flex-row align-items-center"
-
+              className={`${this.state.focus === 'about' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'about' })}
             // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
@@ -47,8 +46,7 @@ class NavBar extends React.Component {
         <div className="subcat-wrap">
           <a href={`#impact`}>
             <h4
-              className="subcat d-flex flex-row align-items-center"
-
+              className={`${this.state.focus === 'impact' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'impact' })}
             // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
@@ -59,8 +57,7 @@ class NavBar extends React.Component {
         <div className="subcat-wrap">
           <a href={`#involved`}>
             <h4
-              className="subcat d-flex flex-row align-items-center"
-
+              className={`${this.state.focus === 'involved' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'involved' })}
             // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >

@@ -17,17 +17,30 @@
 
 .subcat {
   font-size: 1em;
-  color: $blue;
+  color: $light-indigo;
   text-decoration: none;
-
+  transition: .5s color;
 }
+
+// .subcat:fi= {
+//   font-size: 1em;
+//   color: $white;
+//   text-decoration: none;
+// }
 
 .subcat:hover {
   font-size: 1.5em;
   text-decoration: none;
 }
 
-.subcat:focus {
-  font-size: 1.5em;
-  text-decoration: none;
+.subcat:active {
+  color: white;
+}
+
+.subcat:active, .subcat:visited {
+  color: white;
+}
+
+.subcat:focus, .subcat:visited {
+  color: white;
 }
