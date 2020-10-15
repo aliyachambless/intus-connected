@@ -4,11 +4,11 @@
   position: relative;
   transition: height 0.3s ease-out;
   &.open {
-    max-height: 1000vh;
+    max-height: 2000vh;
     transition: max-height 0.5s ease-in;
   }
   &.closed {
-    max-height: 110vw;
+    max-height: 120vh;
     transition: max-height 0.5s ease-out;
     overflow: hidden;
   }
@@ -19,21 +19,23 @@
   bottom: 0;
   transform: translate(-50%, 50%);
   color: $magenta;
+  z-index: 9;
 
   width: 150px; 
   height: 150px; 
   border-radius: 80px; 
   text-align: center; 
+  &:hover, &:focus, &:active {
+    border: none;
+    color: $magenta;
+    box-shadow: none;
+    background-color: #fff;
+  }
   &:hover{
     width: 160px; 
     height: 160px; 
     transition: all 0.3s ease 0s;
     color: $indigo;
-  }
-  &:hover, &:focus, &:active {
-    border: none;
-    box-shadow: none;
-    background-color: #fff;
   }
 
 }
