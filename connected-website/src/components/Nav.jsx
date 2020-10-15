@@ -20,7 +20,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="nav-bar w-25 h-50 overflow-hidden">
+      <div className="nav-bar w-50 h-50 overflow-hidden">
         <div className="subcat-wrap d-flex flex-row align-items-center">
           <a href={`#home`}>
             <h4

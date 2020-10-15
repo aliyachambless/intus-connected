@@ -92,7 +92,7 @@ const Impact = () => {
         </Row>
       </Container>
     </div>
-  <Collapsible>
+  </Collapsible>
   )
 }
 
