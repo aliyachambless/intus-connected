@@ -14,7 +14,7 @@ configureAnchors({ scrollDuration: 700 });
 
 const Impact = () => {
   return (
-    <Collapsible>
+    <Collapsible subcat={'#impactFocus'} >
       <div className="impact-background">
         <div className="background" style={{ right: '-40vw', top: '170vh' }}>
           <Smiley style={{ fill: "#ffffff", width: '80vw' }} />
@@ -30,16 +30,16 @@ const Impact = () => {
             <h1 className="p-0 m-0 extra-bold">impact</h1>
             <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
           </Row>
-          <ScrollableAnchor id={'stopScroll'}>
-            <div style={{ height: '5vh' }} />
+          <ScrollableAnchor id={'impactFocus'}>
+            <div style={{ height: '2vh' }} />
           </ScrollableAnchor>
           <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">COVID Social Isolation</h2>
             <bk />
             <h2 className="font-weight-bold text-white-60"> and Mental Health</h2>
           </Row>
-          <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
-            <div className="py-5">
+          <Row className="d-flex flex-column align-items-center justify-content-center py-3 px-5 mx-4">
+            <div>
               <Brain style={{ fill: "#ffffff", width: '18vw' }} />
             </div>
             <p className="text-white px-4 py-5 mx-5">
@@ -69,13 +69,13 @@ const Impact = () => {
             <h2 className="font-weight-bold text-white-60">among generations</h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
-            <div className="pt-4">
+            <div>
               <HandHeart style={{ fill: "#ffffff", width: '18vw' }} />
             </div>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white">
             <h2 className="font-weight-bold text-white-60">building a bridge</h2>
-            <p className="text-white px-4 py-5 mx-5">
+            <p className="text-white px-4 mx-5">
               connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
               connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
               connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
@@ -85,7 +85,7 @@ const Impact = () => {
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white">
             <h2 className="font-weight-bold text-white-60">fighting ageism</h2>
-            <p className="text-white px-4 py-5 mx-5">
+            <p className="text-white px-4 pb-5 mx-5">
               connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
               connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
               connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
