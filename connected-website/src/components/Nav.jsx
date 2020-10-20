@@ -61,7 +61,7 @@ class NavBar extends React.Component {
             >
               <div className="plus position-absolute">+</div>
               <div className="number">4</div>
-              <div>GET INVOLVED</div>
+              <div>GET <br/> INVOLVED</div>
             </h4>
           </a>
         </div>

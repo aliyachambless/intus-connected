@@ -5,8 +5,8 @@
   top: 35%;
   left: 10px;
   display: block;
-  height: 300px;
-  width: 180px;
+  height: 250px;
+  width: 190px;
 
   @media (max-width: 767px) {
     display: none;
@@ -15,12 +15,12 @@
 
 .circle-bg
   {
-    border-radius: 50%;
+    border-radius: 10%;
     background-color: white;
-    width: 400px;
-    height: 400px; 
+    width: 330px;
+    height: 280px; 
     position: absolute;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -18%);
   }
 
 .vl {

@@ -43,12 +43,12 @@ const About = () => {
           </Row>
           <ScrollableAnchor id={'aboutFocus'}>
             <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-              <h2 className="font-weight-bold text-white-60 pt-2">how</h2>
+              <h2 className="font-weight-bold text-white-60 pt-2">how we do it</h2>
             </Row>
           </ScrollableAnchor>
           <Row className="d-flex flex-column align-items-center justify-content-center pt-4 px-5 mx-4">
             <p className="text-white px-4 mx-5">
-              We achieve this through weekly phone calls, video chats, and letters.
+              We achieve this through weekly phone calls.
           </p>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-around py-4 px-5 mx-4">
