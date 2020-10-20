@@ -5,9 +5,44 @@
   top: 35%;
   left: 10px;
   display: block;
+  height: 300px;
+  width: 180px;
 
   @media (max-width: 767px) {
     display: none;
+  }
+}
+
+.circle-bg
+  {
+    border-radius: 50%;
+    background-color: white;
+    width: 400px;
+    height: 400px; 
+    position: absolute;
+    transform: translate(-50%, -25%);
+  }
+
+.vl {
+  border-left: 1px solid $light-indigo;
+  height: 70%;
+  position: absolute;
+  margin-left: 30px;
+  top: 0;
+}
+
+.number {
+  width: 50px;
+}
+
+.plus {
+  left: 23px;
+  transform: translate(0%, -15%);
+  visibility: hidden;
+  font-size: 1.2em;
+
+  .focused > &{
+    visibility: visible;
   }
 }
 
@@ -16,15 +51,25 @@
 }
 
 .subcat {
-  font-size: 1em;
+  font-size: .7em;
   color: $light-indigo;
   text-decoration: none;
   transition: .5s color;
+  font-weight: 800;
+
+  div {
+    mix-blend-mode: multiply;
+  }
 }
 
-.subcat:hover {
-  font-size: 1.5em;
+.subcat.focused {
+  color: $blue;
+}
+
+.subcat:hover, .subcat:active, .subcat.focused {
+  font-size: 1em;
   text-decoration: none;
+  transform: translate(-1px, -2px);
 }
 
 .subcat:active {

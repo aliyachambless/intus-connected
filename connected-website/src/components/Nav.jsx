@@ -20,15 +20,59 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="nav-bar w-50 h-50 overflow-hidden">
+      <div className="nav-bar">
+        <div class="circle-bg" />
+        <div class="vl"></div>
+        <div class="d-flex flex-column align-items-left justify-content-between h-75 ">
+          <a href={`#home`} class="h-25">
+              <h4
+                className={`${this.state.focus === 'home' ? 'subcat focused' : 'subcat'} d-flex flex-row align-items-left`}
+                onClick={() => this.setState({ focus: 'home' })}
+              >
+                <div className="plus position-absolute">+</div>
+                <div className="number">1</div>
+                <div>HOME</div>
+            </h4>
+          </a>
+          <a href={`#about`} class="h-25">
+            <h4
+              className={`${this.state.focus === 'about' ? 'subcat focused' : 'subcat'} d-flex flex-row align-items-left`}
+              onClick={() => this.setState({ focus: 'about' })}
+            >
+              <div className="plus position-absolute">+</div>
+              <div className="number">2</div>
+              <div>ABOUT</div>
+            </h4>
+          </a>
+          <a href={`#impact`} class="h-25">
+            <h4
+              className={`${this.state.focus === 'impact' ? 'subcat focused' : 'subcat'} d-flex flex-row align-items-left`}
+              onClick={() => this.setState({ focus: 'impact' })}
+            >
+              <div className="plus position-absolute">+</div>
+              <div className="number">3</div>
+              <div>IMPACT</div>
+            </h4>
+          </a>
+          <a href={`#involved`} class="h-25">
+            <h4
+              className={`${this.state.focus === 'involved' ? 'subcat focused' : 'subcat'} d-flex flex-row align-items-left`}
+              onClick={() => this.setState({ focus: 'involved' })}
+            >
+              <div className="plus position-absolute">+</div>
+              <div className="number">4</div>
+              <div>GET INVOLVED</div>
+            </h4>
+          </a>
+        </div>
+{/* 
         <div className="subcat-wrap d-flex flex-row align-items-center">
           <a href={`#home`}>
             <h4
               className={`${this.state.focus === 'home' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'home' })}
-            // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
-              1 + home
+              1 + HOME
           </h4>
           </a>
         </div>
@@ -37,9 +81,8 @@ class NavBar extends React.Component {
             <h4
               className={`${this.state.focus === 'about' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'about' })}
-            // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
-              2 + about
+              2 + ABOUT
           </h4>
           </a>
         </div>
@@ -48,9 +91,8 @@ class NavBar extends React.Component {
             <h4
               className={`${this.state.focus === 'impact' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'impact' })}
-            // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
-              3 + impact
+              3 + IMPACT
           </h4>
           </a>
         </div>
@@ -59,12 +101,12 @@ class NavBar extends React.Component {
             <h4
               className={`${this.state.focus === 'involved' ? 'subcat-white' : 'subcat'} d-flex flex-row align-items-center`}
               onClick={() => this.setState({ focus: 'involved' })}
-            // style={{ position: 'fixed', bottom: 50, zIndex: 10, width: "6vw", opacity: `${this.state.focus && this.state.landingText ? 1 : 0}` }}
             >
-              4 + get involved
+              4 + GET INVOLVED
           </h4>
           </a>
         </div>
+       */}
       </div>
     )
   }
