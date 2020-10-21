@@ -4,6 +4,11 @@
   position: absolute;
   top: 35%;
   left: 10px;
+  display: block;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .subcat-wrap {
@@ -12,9 +17,9 @@
 
 .subcat {
   font-size: 1em;
-  color: $blue;
+  color: $light-indigo;
   text-decoration: none;
-
+  transition: .5s color;
 }
 
 .subcat:hover {
@@ -22,7 +27,14 @@
   text-decoration: none;
 }
 
-.subcat:focus {
-  font-size: 1.5em;
-  text-decoration: none;
+.subcat:active {
+  color: white;
+}
+
+.subcat:active, .subcat:visited {
+  color: white;
+}
+
+.subcat:focus, .subcat:visited {
+  color: white;
 }
