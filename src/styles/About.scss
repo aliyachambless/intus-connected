@@ -6,3 +6,28 @@
   z-index: -2;
   padding-bottom: 5vh;
 }
+
+.intus-link {
+  position: relative;
+  margin-top: -250px;
+  z-index: 9999 !important;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: $white-30;
+  color: white;
+
+  &:hover {
+    background-color: $white;
+    color: $indigo;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+.intus-text {
+  color: white;
+
+  &:hover {
+    color: $indigo;
+    transition: all 0.3s ease 0s;
+  }
+}

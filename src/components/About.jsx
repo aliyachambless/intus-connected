@@ -12,6 +12,8 @@ import placeholder from '../assets/image_placeholder.png';
 import gradientBubble from '../assets/color_gradient_bubble.png';
 import '../styles/About.scss';
 import '../styles/Impact.scss';
+import '../styles/Utilities.scss';
+
 configureAnchors({ scrollDuration: 700 });
 const About = () => {
   return (
@@ -28,10 +30,11 @@ const About = () => {
           className="w-100 p-0 px-5"
         >
           <ScrollableAnchor id={'about'}>
-            <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
-              <h1 className="pt-5 m-0 extra-bold">about us.</h1>
-            </Row>
+            <div style={{ height: '5vh' }}></div>
           </ScrollableAnchor>
+          <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold pb-5 m-5">
+            <h1 className="pt-5 m-0 extra-bold">about us.</h1>
+          </Row>
 
           <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">who we are</h2>
@@ -110,12 +113,11 @@ const About = () => {
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">
-              about 
-              <a href="https://intuscare.com/" className="link-style">intuscare</a>
+              about intuscare
             </h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
-            <p className="text-white px-4 mx-5">
+            <p className="text-white px-4 pb-5 mx-5">
               We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
               We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
               We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
@@ -125,9 +127,20 @@ const About = () => {
               We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
               We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
           </p>
+            <div style={{ height: '150px' }}>
+            </div>
           </Row>
         </Container>
       </div>
+      <Row className="d-flex flex-row justify-content-center">
+        <div className="intus-link w-25 h-25 px-0 py-3 rounded-lg">
+          <a href="https://intuscare.com/" target="_blank" className="font-weight-bold intus-text">
+            intuscare.com
+          </a>
+        </div>
+      </Row>
+      {/* <div style={{ height: '100px' }}>
+      </div> */}
     </Collapsible>
   )
 }

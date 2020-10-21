@@ -37,6 +37,10 @@
   z-index: -1;
 }
 
+.neutral-z {
+  z-index: 0;
+}
+
 .link-style {
   text-decoration: underline;
   color: $light-indigo;
