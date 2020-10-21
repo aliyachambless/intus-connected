@@ -20,9 +20,18 @@ const Connected = () => {
         className="d-flex flex-column w-100 justify-content-center align-items-center px-5 pb-5"
       >
         <ScrollableAnchor id={'home'}>
-        <Row className="vh-100 align-items-center pb-5">
-          <img src={connected} alt="Connected logo" className="img70 auto-height" />
-        </Row>
+          <Row className="vh-100 align-items-center pb-5 d-flex flex-column justify-content-center">
+            <img src={connected} alt="Connected logo" className="img70 auto-height" />
+            <a
+              className="for-mobile"
+              href="https://forms.gle/ykD6ZPyRhynVq6LfA"
+              target="_blank"
+            >
+              <div className="px-3 py-2 rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
+                VOLUNTEER
+            </div>
+            </a>
+          </Row>
         </ScrollableAnchor>
         <Row className="d-flex flex-row py-5 m-5 position-relative">
           {/* Make mobile-friendly */}

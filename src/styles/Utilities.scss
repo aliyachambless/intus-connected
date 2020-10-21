@@ -48,3 +48,11 @@
   cursor: pointer;
   z-index: 9999;
 }
+
+.for-mobile {
+  display: none;
+
+  @media (max-width: 767px) { 
+    display: block;
+  }
+}
