@@ -3,6 +3,17 @@
 .involved-background {
   position: relative;
   background-image: linear-gradient($pink, $light-pink);
-  z-index: -2;
   padding-bottom: 5vh;
+}
+
+.form-link {
+  border: 2px solid white;
+  background-color: $white-30;
+  color: white;
+
+  &:hover {
+    background-color: $white;
+    color: $indigo;
+    transition: all 0.3s ease 0s;
+  }
 }
