@@ -58,7 +58,6 @@ const About = () => {
               <Letter className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} />
             </div>
           </Row>
-
           <Row className="px-5 mx-5 py-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white pt-3">our team!</h2>
           </Row>
@@ -130,7 +129,6 @@ const About = () => {
         </Container>
       </div>
     </Collapsible>
-
   )
 }
 export default About;

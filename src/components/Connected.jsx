@@ -7,7 +7,6 @@ import { ReactComponent as Heart } from '../assets/heart.svg';
 import { ReactComponent as WhiteCircle } from '../assets/white_circle.svg';
 import '../styles/Utilities.scss';
 import '../styles/Connected.scss';
-
 configureAnchors({ scrollDuration: 700 });
 
 const Connected = () => {
