@@ -36,3 +36,11 @@
   position: absolute;
   z-index: -1;
 }
+
+.link-style {
+  text-decoration: underline;
+  color: $light-indigo;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 9999;
+}
