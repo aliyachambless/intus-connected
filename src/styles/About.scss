@@ -16,6 +16,10 @@
   background-color: $white-30;
   color: white;
 
+  @media (max-width: 767px) { 
+    margin-top: -200px;
+  }
+
   &:hover {
     background-color: $white;
     color: $indigo;
@@ -23,11 +27,3 @@
   }
 }
 
-.intus-text {
-  color: white;
-
-  &:hover {
-    color: $indigo;
-    transition: all 0.3s ease 0s;
-  }
-}

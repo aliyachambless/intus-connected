@@ -133,11 +133,11 @@ const About = () => {
         </Container>
       </div>
       <Row className="d-flex flex-row justify-content-center">
-        <div className="intus-link w-25 h-25 px-0 py-3 rounded-lg">
-          <a href="https://intuscare.com/" target="_blank" className="font-weight-bold intus-text">
+        <a href="https://intuscare.com/" target="_blank" className="font-weight-bold">
+          <div className="intus-link px-5 py-3 rounded-lg">
             intuscare.com
-          </a>
-        </div>
+            </div>
+        </a>
       </Row>
       {/* <div style={{ height: '100px' }}>
       </div> */}
