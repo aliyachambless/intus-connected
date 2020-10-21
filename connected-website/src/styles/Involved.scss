@@ -3,6 +3,19 @@
 .involved-background {
   position: relative;
   background-image: linear-gradient($pink, $light-pink);
-  z-index: -2;
+  // z-index: -2;
   padding-bottom: 5vh;
+}
+
+.form-link { 
+  cursor: pointer;
+  z-index: 9999;
+  position: absolute;
+}
+
+.form-link:hover { 
+  cursor: pointer;
+  background-color: $white-60;
+  z-index: 9999;
+
 }
