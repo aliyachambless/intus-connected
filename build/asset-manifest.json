@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/intus-connected/static/css/main.8ffb6f1e.chunk.css",
+    "main.css": "/intus-connected/static/css/main.1a1bd326.chunk.css",
     "main.js": "/intus-connected/static/js/main.253b1b58.chunk.js",
     "main.js.map": "/intus-connected/static/js/main.253b1b58.chunk.js.map",
     "runtime-main.js": "/intus-connected/static/js/runtime-main.20c3c631.js",
@@ -9,10 +9,10 @@
     "static/js/2.198aa6b9.chunk.js": "/intus-connected/static/js/2.198aa6b9.chunk.js",
     "static/js/2.198aa6b9.chunk.js.map": "/intus-connected/static/js/2.198aa6b9.chunk.js.map",
     "index.html": "/intus-connected/index.html",
-    "precache-manifest.aa2d0eb06a57d500d01bff637e9a3de6.js": "/intus-connected/precache-manifest.aa2d0eb06a57d500d01bff637e9a3de6.js",
+    "precache-manifest.9042cebd8cc3f62176fffbdd23bfc056.js": "/intus-connected/precache-manifest.9042cebd8cc3f62176fffbdd23bfc056.js",
     "service-worker.js": "/intus-connected/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/intus-connected/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.8ffb6f1e.chunk.css.map": "/intus-connected/static/css/main.8ffb6f1e.chunk.css.map",
+    "static/css/main.1a1bd326.chunk.css.map": "/intus-connected/static/css/main.1a1bd326.chunk.css.map",
     "static/js/2.198aa6b9.chunk.js.LICENSE.txt": "/intus-connected/static/js/2.198aa6b9.chunk.js.LICENSE.txt",
     "static/media/about_bubbles.b9d8db98.svg": "/intus-connected/static/media/about_bubbles.b9d8db98.svg",
     "static/media/brain_drawing.dfc6ff21.svg": "/intus-connected/static/media/brain_drawing.dfc6ff21.svg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.20c3c631.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.7fec6f54.chunk.js",
-    "static/css/main.4689bd3a.chunk.css",
-    "static/js/main.bf218a07.chunk.js"
+    "static/js/2.198aa6b9.chunk.js",
+    "static/css/main.1a1bd326.chunk.css",
+    "static/js/main.253b1b58.chunk.js"
   ]
 }
