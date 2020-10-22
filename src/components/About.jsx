@@ -8,7 +8,10 @@ import { ReactComponent as Mail } from '../assets/mail.svg';
 import { ReactComponent as Letter } from '../assets/paper_letter.svg';
 import { ReactComponent as Bubbles } from '../assets/about_bubbles.svg';
 import { ReactComponent as Circle } from '../assets/ellipse.svg';
-import placeholder from '../assets/image_placeholder.png';
+import evan from '../assets/evan.jpg';
+import joanne from '../assets/joanne.png';
+import sophia from '../assets/sophia.png';
+
 import gradientBubble from '../assets/color_gradient_bubble.png';
 import '../styles/About.scss';
 import '../styles/Impact.scss';
@@ -41,8 +44,8 @@ const About = () => {
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-3 px-5 mx-4">
             <p className="text-white px-4 mx-5">
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-          </p>
+              We are a group of passionate college students who, after seeing how social isolation detrimentally affected our grandparents’ mental health, realized that this issue could be improved through virtual interactions. Although we must remain physically distant, we believe that we do not have to stay socially distant. During this time, it’s more important than ever to stay CONNECTED.
+            </p>
           </Row>
           <ScrollableAnchor id={'aboutFocus'}>
             <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
@@ -51,45 +54,67 @@ const About = () => {
           </ScrollableAnchor>
           <Row className="d-flex flex-column align-items-center justify-content-center pt-4 px-5 mx-4">
             <p className="text-white px-4 mx-5">
-              We achieve this through weekly phone calls.
+              We individually match our Elderly Friends with college students for weekly phone calls.
           </p>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-around py-4 px-5 mx-4">
             <div className="d-flex flex-row align-items-end">
               <Phone className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} />
-              <Mail className="mx-4" style={{ fill: "#ffffff", width: '15vw' }} />
-              <Letter className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} />
+              {/* <Mail className="mx-4" style={{ fill: "#ffffff", width: '15vw' }} />
+              <Letter className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} /> */}
             </div>
           </Row>
           <Row className="px-5 mx-5 py-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white pt-3">our team!</h2>
           </Row>
-          <Row className="px-5 mx-5 pt-5 d-flex flex-row align-items-start justify-content-between">
+          <Row className="px-5 mx-5 py-5 d-flex flex-row align-items-center justify-content-between">
             <p className="text-white pt-4" style={{ position: 'relative' }}>
-              <div className="background" style={{ left: '-5vw', top: '-13vh' }}>
+              <div className="background" style={{ left: '3vw', top: '-34vh' }}>
                 <Circle style={{ width: '10vw' }} />
               </div>
-              Evan Jackson
-          </p>
-            <img src={placeholder} alt="Placeholder Image" className="img45" />
+            </p>
+            <div>
+              <img src={evan} alt="evan" className="img-profile" />
+
+            </div>
+            <div className="p-5 about-box d-flex flex-column align-items-center justify-content-center">
+              <h3>Evan</h3>
+              <h4 className="font-weight-bold pb-4"> (Director of Strategic Growth)</h4>
+              <p>
+                Evan is a Senior at Brown University studying economics and religious studies. He is passionate about healthcare and is a cofounder and Chief Operating Officer at Intus Care. Evan also works in the non-profit sector where he serves as the Vice Chairman of the Board of Directors for two international non-profits. In the future, Evan hopes to continue serving communities around him and making a difference through programs like Connected by Intus Care.
+                </p>
+            </div>
           </Row>
-          <Row className="px-5 mx-5 pt-5 d-flex flex-row align-items-start justify-content-between">
+          <Row className="px-5 mx-5 py-5 d-flex flex-row align-items-center justify-content-between">
             <p className="text-white pt-4" style={{ position: 'relative' }}>
-              <div className="background" style={{ left: '5vw', top: '-12vh' }}>
+              <div className="background" style={{ left: '0vw', top: '-12vh' }}>
                 <Circle style={{ width: '10vw' }} />
               </div>
-              Joanne Won
-          </p>
-            <img src={placeholder} alt="Placeholder Image" className="img45" />
+            </p>
+
+            <div className="p-5 about-box d-flex flex-column align-items-center justify-content-center">
+              <h3>Joanne</h3>
+              <h4 className="font-weight-bold pb-4"> (Director of Strategic Growth)</h4>
+              <p>
+                Joanne is a student-athlete studying Cognitive Science at Brown University. She aspires to be a practicing physician and work with underserved communities. She is a passionate advocate for mental health and reproductive health. After constantly communicating with her grandparents across the sea in South Korea through phone calles she realized she wanted to inspire that kind of connection for others during social isolation.                 </p>
+            </div>
+            <img src={joanne} alt="joanne" className="img-profile" />
+
           </Row>
-          <Row className="px-5 mx-5 py-5 d-flex flex-row align-items-start justify-content-between">
+          <Row className="px-5 mx-5 py-5 d-flex flex-row align-items-center justify-content-between">
             <p className="text-white pt-4" style={{ position: 'relative' }}>
-              <div className="background" style={{ left: '-5vw', top: '-9vh' }}>
+              <div className="background" style={{ left: '-5vw', top: '-25vh' }}>
                 <Circle style={{ width: '10vw' }} />
               </div>
-              Sophia
-          </p>
-            <img src={placeholder} alt="Placeholder Image" className="img45" />
+            </p>
+            <img src={sophia} alt="Sohpia" className="img-profile" />
+            <div className="p-5 about-box d-flex flex-column align-items-center justify-content-center">
+              <h3>Sophia</h3>
+              <h4 className="font-weight-bold pb-4"> (Director of Marketing)</h4>
+              <p>
+                Sophia is a junior studying Philosophy at Brown University, as well as the founder and CEO of her own company, Zoa Rose. Outside of work, she enjoys singing, being creative, going to the gym, and spending time with family. After seeing how lonely her grandparents felt during the COVID-19 pandemic, she felt passionate about creating an accessible solution. Through CONNECTED, Sophia hopes to make a difference.
+              </p>
+            </div>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">volunteers:</h2>
@@ -113,20 +138,13 @@ const About = () => {
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">
-              about intuscare
+              our partner
             </h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
             <p className="text-white px-4 pb-5 mx-5">
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-              We are a group of passionate college students who want to bridge the gap between generations to instill feelings of togetherness through virtual experiences. Feeling lack of human connection during COVID, we sought out a reason to change that.
-          </p>
+              Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data to identify and correlate trends in long-term care facilities. We do this by integrating with electronic health record, claims, and accounting software to highlight clinical risks in patients and insightfully display organizational data. Intus Care empowers care providers to mitigate preventable high-utilization events and equips executives with the tools to make informed decisions based on data.
+            </p>
             <div style={{ height: '150px' }}>
             </div>
           </Row>
