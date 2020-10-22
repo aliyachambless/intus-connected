@@ -39,7 +39,7 @@ const Impact = () => {
             <h2 className="font-weight-bold text-white-60"> and Mental Health</h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-3 px-5 mx-4">
-            <div>
+            <div className="d-flex flex-row align-items-end">
               <Brain style={{ fill: "#ffffff", width: '18vw' }} />
             </div>
             <p className="text-white px-4 py-5 mx-5">

@@ -22,10 +22,22 @@ const Involved = () => {
         <ScrollableAnchor id={'involved'}>
           <div style={{ height: '5vh' }} />
         </ScrollableAnchor>
-        <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
-          <h1 className="p-0 m-0 extra-bold">get involved</h1>
+        <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold pt-5 m-5">
+          <h1 className="pt-3 m-0 extra-bold">get involved</h1>
         </Row>
-        <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
+        <Row className="d-flex flex-row justify-content-center align-items-center pb-5 mb-5 ">
+          <div className="position-relative">
+            <a
+              href="https://forms.gle/ykD6ZPyRhynVq6LfA"
+              target="_blank"
+            >
+              <div className="px-5 py-3 rounded-lg form-link cursor-pointer">
+                <h4 className="font-weight-bold p-0 m-0">Volunteer</h4>
+              </div>
+            </a>
+          </div>
+        </Row>
+        {/* <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
           <h2 className="font-weight-bold text-white-60">Application Process</h2>
           <p className="text-white px-4 py-5 mx-5">
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
@@ -34,10 +46,11 @@ const Involved = () => {
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
             connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
         </p>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   )
 }
 
 export default Involved;
+

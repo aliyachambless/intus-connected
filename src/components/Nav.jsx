@@ -25,13 +25,13 @@ class NavBar extends React.Component {
         <div class="vl"></div>
         <div class="d-flex flex-column align-items-left justify-content-between h-75 ">
           <a href={`#home`} class="h-25">
-              <h4
-                className={`${this.state.focus === 'home' ? 'subcat focused' : 'subcat'} d-flex flex-row align-items-left`}
-                onClick={() => this.setState({ focus: 'home' })}
-              >
-                <div className="plus position-absolute">+</div>
-                <div className="number">1</div>
-                <div>HOME</div>
+            <h4
+              className={`${this.state.focus === 'home' ? 'subcat focused' : 'subcat'} d-flex flex-row align-items-left`}
+              onClick={() => this.setState({ focus: 'home' })}
+            >
+              <div className="plus position-absolute">+</div>
+              <div className="number">1</div>
+              <div>HOME</div>
             </h4>
           </a>
           <a href={`#about`} class="h-25">
@@ -61,11 +61,21 @@ class NavBar extends React.Component {
             >
               <div className="plus position-absolute">+</div>
               <div className="number">4</div>
-              <div>GET <br/> INVOLVED</div>
+              <div>GET <br /> INVOLVED</div>
             </h4>
           </a>
         </div>
-{/* 
+        <div className="position-relative w-75 pt-2">
+          <a
+            href="https://forms.gle/ykD6ZPyRhynVq6LfA"
+            target="_blank"
+          >
+            <div className="px-3 py-2 rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
+              VOLUNTEER
+            </div>
+          </a>
+        </div>
+        {/* 
         <div className="subcat-wrap d-flex flex-row align-items-center">
           <a href={`#home`}>
             <h4

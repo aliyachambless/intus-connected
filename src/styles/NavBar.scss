@@ -18,7 +18,7 @@
     border-radius: 10%;
     background-color: white;
     width: 330px;
-    height: 280px; 
+    height: 360px; 
     position: absolute;
     transform: translate(-50%, -18%);
   }
@@ -82,4 +82,20 @@
 
 .subcat:focus, .subcat:visited {
   color: white;
+}
+
+.volunteer-link {
+  border: 2px solid $indigo;
+  color: $indigo;
+  background-color: white;
+  font-size: .8em;
+  text-decoration: none;
+  transition: .5s color;
+  font-weight: 800;
+
+  &:hover {
+    background-color: $indigo-30;
+    color: white;
+    transition: all 0.3s ease 0s;
+  }
 }
