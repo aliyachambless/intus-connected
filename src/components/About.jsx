@@ -117,23 +117,30 @@ const About = () => {
             </div>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-            <h2 className="font-weight-bold text-white-60">volunteers:</h2>
+            <h2 className="font-weight-bold text-white-60">volunteer testimonials</h2>
           </Row>
-          <Row className="d-flex flex-column align-items-end justify-content-center py-5 px-5 mx-4">
-            <p className="text-white px-4 pb-1 mx-5">
-              Tommy
+          <Row className="d-flex flex-column align-items-start justify-content-left py-5 px-5 mx-4 my-5 position-relative">
+            <div className="background position-absolute" style={{ left: '-10vw', top: '0' }}>
+              <Circle style={{ width: '70vw' }} />
+            </div>
+            <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
+                Testimonial: Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data 
             </p>
-            <p className="text-white px-4 pb-1 mx-5">
-              Henry
+          </Row>
+          <Row className="d-flex flex-column align-items-end justify-content-right py-5 px-5 mx-4 my-5 position-relative">
+            <div className="background position-absolute" style={{ right: '-10vw', top: '0' }}>
+              <Circle style={{ width: '70vw' }} />
+            </div>
+            <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
+                Testimonial: Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data 
             </p>
-            <p className="text-white px-4 pb-1 mx-5">
-              Kasey
-            </p>
-            <p className="text-white px-4 pb-1 mx-5">
-              Sabrina
-            </p>
-            <p className="text-white px-4 pb-1 mx-5">
-              Elizabeth
+          </Row>
+          <Row className="d-flex flex-column align-items-start justify-content-left py-5 px-5 mx-4 my-5 position-relative">
+            <div className="background position-absolute" style={{ left: '-10vw', top: '0' }}>
+              <Circle style={{ width: '70vw' }} />
+            </div>
+            <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
+                Testimonial: Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data 
             </p>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
