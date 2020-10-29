@@ -68,26 +68,7 @@ const Impact = () => {
               <Brain style={{ fill: "#ffffff", width: '18vw' }} />
             </div>
             <p className="text-white px-4 py-5 mx-5">
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-         </p>
-          </Row>
-          <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
-            <p className="text-white px-4 py-3 mx-5">
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected h and elderly
-        </p>
-            <p className="text-white px-4 py-3 mx-5">
-              connected fostering relationships between our youth and elderly
-              connected by Intus Care elationships between our youth and elderly
-        </p>
-            <p className="text-white px-4 py-3 mx-5">
-              enerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care elationships between our youth and elderly
-        </p>
+              During this unprecedented challenge brought on by the COVID-19 outbreak, older adults are finding themselves particularly affected by social distancing policies. Loneliness and social isolation have been found to have profound negative impacts on mental health in older adults. Connected by Intus Care seeks to foster intergenerational social connection and mitigate the harmful effects of social isolation on mental health.             </p>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">fostering empathy</h2>
@@ -97,26 +78,20 @@ const Impact = () => {
             <div>
               <HandHeart style={{ fill: "#ffffff", width: '18vw' }} />
             </div>
+            <p className="text-white px-4 py-5 mx-5">
+              The generational gap is the perceived divide in opinion between generations.. A lack of empathy and connection between generations exacerbates this existing gap. With weekly conversations between Connected Friends, we aim to create a new, intergenerational wave of people that share stories and passions with an open mind and heart.
+            </p>
           </Row>
-          <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white">
+          <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white">
             <h2 className="font-weight-bold text-white-60">building a bridge</h2>
-            <p className="text-white px-4 mx-5">
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-         </p>
-          </Row>
-          <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white">
             <h2 className="font-weight-bold text-white-60">fighting ageism</h2>
-            <p className="text-white px-4 pb-5 mx-5">
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
-         </p>
+          </Row>
+          <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
+            <div>
+              <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
+            </div>
+            <p className="text-white py-5 px-4 mx-5">
+              The generational gap is the perceived divide in opinion between generations.. A lack of empathy and connection between generations exacerbates this existing gap. With weekly conversations between Connected Friends, we aim to create a new, intergenerational wave of people that share stories and passions with an open mind and heart.</p>
           </Row>
         </Container>
       </div>
