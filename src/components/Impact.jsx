@@ -7,6 +7,7 @@ import { ReactComponent as Heart } from '../assets/heart.svg';
 import { ReactComponent as HandHeart } from '../assets/hand_heart.svg';
 import { ReactComponent as Brain } from '../assets/brain_drawing.svg';
 import { ReactComponent as Smiley } from '../assets/pink_smile.svg';
+import { ReactComponent as Bridge } from '../assets/bridge.svg';
 import '../styles/Utilities.scss';
 import '../styles/Impact.scss';
 
@@ -26,9 +27,33 @@ const Impact = () => {
           <ScrollableAnchor id={'impact'}>
             <div style={{ height: '5vh' }} />
           </ScrollableAnchor>
-          <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold p-5 m-5">
+          <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold pt-5 pb-3 px-5 m-5">
             <h1 className="p-0 m-0 extra-bold">impact</h1>
             <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
+          </Row>
+          <Row className="d-flex flex-row text-wrap justify-content-center align-items-start pb-5">
+            <div className="d-flex flex-column justify-content-center align-items-center px-2">
+              <Brain style={{ fill: "#ffffff", width: '16vw' }} />
+              <div className="pt-3">
+                <h3 className="text-white">COVID Social Isolation</h3>
+                <h3 className="text-white">and Mental Health</h3>
+              </div>
+            </div>
+            <div className="d-flex flex-column justify-content-center align-items-center px-3">
+              <HandHeart style={{ fill: "#ffffff", width: '14.2vw' }} />
+              <div className="pt-3">
+                <h3 className="text-white">Fostering empathy</h3>
+                <h3 className="text-white">among generations</h3>
+              </div>
+            </div>
+            <div className="d-flex flex-column justify-content-center align-items-center px-2">
+              <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
+              <div className="pt-3">
+                <h3 className="text-white">Building a bridge</h3>
+                <h3 className="text-white">fighting ageism</h3>
+
+              </div>
+            </div>
           </Row>
           <ScrollableAnchor id={'impactFocus'}>
             <div style={{ height: '2vh' }} />
