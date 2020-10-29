@@ -56,7 +56,7 @@ const Impact = () => {
             </div>
           </Row>
           <ScrollableAnchor id={'impactFocus'}>
-            <div style={{ height: '2vh' }} />
+            <div style={{ height: '3vh' }} />
           </ScrollableAnchor>
           <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">COVID Social Isolation</h2>
