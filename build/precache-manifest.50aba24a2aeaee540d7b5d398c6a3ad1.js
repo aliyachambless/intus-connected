@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45ba97a2b8835f6e7b3485f707ffc15c",
+    "revision": "c25597c7890fe4fe2b13277330f8f6d4",
     "url": "/intus-connected/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/intus-connected/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "05fd66835a56ae0e7aef",
+    "revision": "b9c673aec6e156477807",
     "url": "/intus-connected/static/css/main.d639a7ca.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/intus-connected/static/js/2.7ee9412c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05fd66835a56ae0e7aef",
-    "url": "/intus-connected/static/js/main.5a5e9510.chunk.js"
+    "revision": "b9c673aec6e156477807",
+    "url": "/intus-connected/static/js/main.62fd231a.chunk.js"
   },
   {
     "revision": "355c1d5f2385a12d48ae",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dfc6ff217bb20dace570bd9283fa2199",
     "url": "/intus-connected/static/media/brain_drawing.dfc6ff21.svg"
+  },
+  {
+    "revision": "a15376e624358c6fa26dff7bd3abffd7",
+    "url": "/intus-connected/static/media/bridge.a15376e6.svg"
   },
   {
     "revision": "35095da854e55c1d6253c40546bed415",
